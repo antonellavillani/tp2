@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class EtapaMundial {
@@ -5,14 +6,24 @@ public class EtapaMundial {
     private ArrayList<Partido> partidos;
 
 
-    EtapaMundial(){
+    public EtapaMundial(){
 
     }
 
-
-
     public String getDescripcionEtapa() {
         return descripcionEtapa;
+    }
+
+    public void addPartido (Partido partido){
+
+    }
+
+    public ArrayList <Partido> getPartido (Partido partido){
+        return new ArrayList<Partido>();
+    }
+
+    public ArrayList <Equipo> getEquiposQueAvanzan (Equipo equipo){
+        return new ArrayList<Equipo>();
     }
 
     public void setDescripcionEtapa(String descripcionEtapa) {
@@ -26,4 +37,5 @@ public class EtapaMundial {
     public void setPartidos(ArrayList<Partido> partidos) {
         this.partidos = partidos;
     }
+
 }
