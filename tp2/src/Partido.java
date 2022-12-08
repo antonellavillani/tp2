@@ -1,23 +1,23 @@
 import java.util.Date;
 
 public class Partido {
-    private Date fecha;
+    private int fecha;
     private Equipo local;
     private Equipo visitante;
     private Resultado resultado;
 
 
-    public Partido (Date fecha, Equipo local, Equipo visitante){
+    public Partido (int fecha, Equipo local, Equipo visitante){
         this.fecha = fecha;
         this.local = local;
         this.visitante = visitante;
     }
 
-    public Date getFecha() {
+    public int getFecha() {
         return fecha;
     }
 
-    public void setFecha(Date fecha) {
+    public void setFecha(int fecha) {
         this.fecha = fecha;
     }
 

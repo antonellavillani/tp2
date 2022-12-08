@@ -38,4 +38,6 @@ public class EtapaMundial {
         this.partidos = partidos;
     }
 
+    public void setEquipos(ArrayList<Equipo> equipos) {
+    }
 }
