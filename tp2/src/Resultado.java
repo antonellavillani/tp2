@@ -5,6 +5,12 @@ public class Resultado {
     private boolean empate;
 
 
+    public Resultado (int golesLocal, int golesVisitante, boolean ganoLocal, boolean empate){
+        this.golesLocal = golesLocal;
+        this.golesVisitante = golesVisitante;
+        this.ganoLocal = ganoLocal;
+        this.empate = empate;
+    }
     public boolean ganoLocal(){
         return ganoLocal;
     }

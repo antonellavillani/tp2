@@ -64,5 +64,31 @@ public class Main {
         grupo2.addPartido(new Partido(14/12/2022, equipo27, equipo28));
         grupo2.addPartido(new Partido(15/12/2022, equipo29, equipo30));
         grupo2.addPartido(new Partido(16/12/2022, equipo31, equipo32));
+
+
+        //partidos grupo 1
+        Resultado resultadoPartido1 = new Resultado(2, 0, true, false);
+        Resultado resultadoPartido2 = new Resultado(1, 2, false, false);
+        Resultado resultadoPartido3 = new Resultado(0, 0, false, true);
+        Resultado resultadoPartido4 = new Resultado(2, 3, false, false);
+
+        //partidos grupo 2
+        Resultado resultadoPartido5 = new Resultado(0, 4, false, false);
+        Resultado resultadoPartido6 = new Resultado(1, 0, true, false);
+        Resultado resultadoPartido7 = new Resultado(3, 0, true, false);
+        Resultado resultadoPartido8 = new Resultado(2, 2, false, true);
+
+        //partidos grupo 3
+        Resultado resultadoPartido9 = new Resultado(0, 0, false, true);
+        Resultado resultadoPartido10 = new Resultado(0, 2, false, false);
+        Resultado resultadoPartido11 = new Resultado(2, 2, false, true);
+        Resultado resultadoPartido12 = new Resultado(1, 3, false, false);
+
+        //partidos grupo 4
+        Resultado resultadoPartido13 = new Resultado(1, 2, false, false);
+        Resultado resultadoPartido14 = new Resultado(1, 2, false, false);
+        Resultado resultadoPartido15 = new Resultado(0, 1, false, false);
+        Resultado resultadoPartido16 = new Resultado(2, 3, false, false);
+
     }
 }
