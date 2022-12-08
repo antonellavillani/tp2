@@ -3,12 +3,13 @@ import java.util.ArrayList;
 public class Equipo {
     private String nombre;
     private ArrayList<Partido> partidosJugados;
+    private boolean local;
 
     public String getNombre() {
         return nombre;
     }
 
-    Equipo (String nombre){
+    Equipo (String nombre, boolean local){
         this.setNombre(nombre);
     }
 
@@ -22,5 +23,13 @@ public class Equipo {
 
     public void setPartidosJugados(ArrayList<Partido> partidosJugados) {
         this.partidosJugados = partidosJugados;
+    }
+
+    public boolean isLocal() {
+        return local;
+    }
+
+    public void setLocal(boolean local) {
+        this.local = local;
     }
 }
