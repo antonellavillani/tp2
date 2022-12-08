@@ -8,6 +8,10 @@ public class Equipo {
         return nombre;
     }
 
+    Equipo (String nombre){
+        this.setNombre(nombre);
+    }
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
